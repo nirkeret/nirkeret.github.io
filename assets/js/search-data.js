@@ -391,16 +391,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-we-have-a-new-preprint-convex-mixed-integer-programming-for-causal-additive-models-with-optimization-and-statistical-guarantees-joint-with-xiaozhu-zhang-ali-shojaie-and-armeen-taeb",
+          title: 'We have a new preprint! 👉 Convex Mixed-Integer Programming for Causal Additive Models...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
