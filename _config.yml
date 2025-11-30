@@ -638,3 +638,16 @@ jsonresume:
   - languages
   - interests
   - references
+
+
+
+####
+navbar:
+  pages:
+    - name: About
+      url: /
+    - name: Publications
+      url: /publications/
+    - name: CV
+      url: /assets/pdf/Nir_Keret_CV.pdf
+      external: true
