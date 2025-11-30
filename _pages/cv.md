@@ -1,4 +1,4 @@
----
+<!---
 layout: cv
 permalink: /cv/
 title: CV
@@ -8,4 +8,13 @@ cv_pdf: Nir_Keret_CV.pdf
 description: 
 toc:
   sidebar: left
+--->
+
+---
+title: CV
+nav: true
+external: true
+url: /assets/pdf/Nir_Keret_CV.pdf
+layout: none
+permalink: /cv/
 ---
