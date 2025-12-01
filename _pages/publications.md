@@ -13,6 +13,20 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+### Preprints
+
+{% bibliography
+   --query @*[url~=arxiv.org]
+   --sort_by year,month
+   --order descending
+%}
+
+### Journal publications
+
+{% bibliography
+   --query @*[url!~arxiv.org]
+   --sort_by year,month
+   --order descending
+%}
 
 </div>
