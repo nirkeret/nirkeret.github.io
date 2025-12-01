@@ -10,4 +10,8 @@
   {{ entry.author }}
   <br>
   <em>{{ entry.journal }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}
+    {% if entry.note %}
+    <br>
+    <span class="award">{{ entry.note }}</span>
+  {% endif %}
 </li>
