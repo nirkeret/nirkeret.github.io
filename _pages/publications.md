@@ -11,29 +11,28 @@ nav_order: 2
 <!-- Bibsearch Feature -->
 
 <style>
-  /* Hide the automatic page title on THIS page only */
-  h1 {
+  /* Hide the big automatic page title on this page only */
+  h1.page-title {
     display: none;
   }
 </style>
 
 <div class="publications">
 
-## Preprints
+  <h3>Preprints</h3>
 
-{% bibliography
-   --query @*[url~=arxiv.org]
-   --sort_by year
-   --order descending
-%}
+  {% bibliography
+     --query @*[url~=arxiv.org]
+     --sort_by year
+     --order descending
+  %}
 
-## Journal publications
+  <h3>Journal Publications</h3>
 
-{% bibliography
-   --query @*[url!~arxiv.org]
-   --sort_by year
-   --order descending
-%}
+  {% bibliography
+     --query @*[url!~arxiv.org]
+     --sort_by year
+     --order descending
+  %}
 
-</div>
 </div>
