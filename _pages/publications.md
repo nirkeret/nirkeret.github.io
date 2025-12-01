@@ -11,8 +11,8 @@ nav_order: 2
 <!-- Bibsearch Feature -->
 
 <style>
-  /* Hide the big automatic page title on this page only */
-  h1.page-title {
+  /* Hide the automatic main H1 title on this page */
+  h1 {
     display: none;
   }
 </style>
