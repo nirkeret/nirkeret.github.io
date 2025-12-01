@@ -1,0 +1,13 @@
+<li class="bibliography-item">
+  {% if entry.url %}
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+  {% elsif entry.doi %}
+    <a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>
+  {% else %}
+    {{ entry.title }}
+  {% endif %}
+  <br>
+  {{ entry.author }}
+  <br>
+  <em>{{ entry.journal }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}
+</li>
