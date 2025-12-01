@@ -2,7 +2,6 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: publications in reversed chronological order.
 nav: true
 nav_order: 2
 ---
@@ -11,22 +10,30 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
+<style>
+  /* Hide the automatic page title on THIS page only */
+  h1 {
+    display: none;
+  }
+</style>
+
 <div class="publications">
 
-### Preprints
+## Preprints
 
 {% bibliography
    --query @*[url~=arxiv.org]
-   --sort_by year,month
+   --sort_by year
    --order descending
 %}
 
-### Journal publications
+## Journal publications
 
 {% bibliography
    --query @*[url!~arxiv.org]
-   --sort_by year,month
+   --sort_by year
    --order descending
 %}
 
+</div>
 </div>
