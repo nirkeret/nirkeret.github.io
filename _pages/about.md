@@ -30,7 +30,7 @@ latest_posts:
 
 I am a postdoctoral scholar in the Department of Biostatistics at the University of Washington, working with Professor [Ali Shojaie](https://faculty.washington.edu/ashojaie/index.html). I am also a UW Data Science Postdoctoral Fellow affiliated with the eScience Institute. Previously, I obtained a PhD from Tel Aviv University under the supervision of Professor [Malka Gorfine](https://www.tau.ac.il/~gorfinem/). 
 
-I am broadly interested in complex biomedical data, focusing on survival analysis and privacy-preserving analysis of electronic health records via tools such as AI-generated synthetic data. I also study biological networks through the development of probabilistic and time-series models that learn network structure from data, including methods for causal discovery and for characterizing dynamic interactions.
+My research develops statistical methods for complex biomedical data, with a central focus on graphical models. I work on Markov random fields, causal discovery, and methods that combine information from multiple sources to learn dependence structure. I also work on survival analysis and reliable statistical inference from AI-generated synthetic data.
 
 
 <!--
