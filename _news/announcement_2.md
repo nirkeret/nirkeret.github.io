@@ -6,8 +6,7 @@ related_posts: false
 published: true
 ---
 
-Two new preprints!  
-<br>
+Two new preprints!<br>
 👉 **[Sparse Directed Network Recovery From Multivariate Count Time Series](https://arxiv.org/abs/2610.39236)**  
 *Joint with [Shirley Mathur](https://www.linkedin.com/in/shirley-mathur-a1870a183) and [Ali Shojaie](https://faculty.washington.edu/ashojaie/index.html).*
 <br>
